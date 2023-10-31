@@ -3,26 +3,20 @@
 1. Clone the repository
 
 ```bash
-git clone git@github.com:RightClickITSolutions/napims-360.git
+git clone https://github.com/AbdulAbdullah/Naija.git
 ```
 
-2. Install all UI Client dependencies
-
-```bash
-yarn install --no-lockfile --production=false --silent
-```
-
-3. Setup Python virtual env
+2. Setup Python virtual env
 ```bash
 python3 -m venv .venv
 ```
 
-4. Activate env
+3. Activate env
 ```bash
 source .venv/bin/activate
 ```
 
 5. Install all Server dependencies
 ```bash
-pip install -r conf/requirements-dev.txt
+pip install -r requirements.txt
 ```
