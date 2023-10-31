@@ -20,3 +20,8 @@ source .venv/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
+
+5. Start Server 
+```bash
+./manage.py runserver
+```
